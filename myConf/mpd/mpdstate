@@ -1,0 +1,25 @@
+sw_volume: 9
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 6
+time: 157.948
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:coke/Bury the Light - Vergil's battle theme from Devil May Cry 5 Special Edition.mp3
+1:coke/Devil May Cry 3 - Devils Never Cry.mp3
+2:coke/Bring Me To Life (Remastered 2023).mp3
+3:coke/Drowning Pool - Bodies (Official HD Music Video).mp3
+4:coke/Evanescence ｜ Afterlife ｜ Devil May Cry ｜ Official Soundtrack ｜ Netflix.mp3
+5:coke/Faint (Official Music Video) [4K UPGRADE] – Linkin Park.mp3
+6:coke/In The End [Official HD Music Video] - Linkin Park.mp3
+7:coke/Slipknot - Psychosocial [OFFICIAL VIDEO] [HD].mp3
+8:coke/NXCRE & The Villains - USURPER.mp3
+playlist_end
