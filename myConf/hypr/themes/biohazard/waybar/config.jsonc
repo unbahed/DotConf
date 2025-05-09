@@ -148,15 +148,11 @@
   "custom/randwall": {
     "format": "󰏘",
     "on-click": "fish $HOME/.config/hypr/scripts/wallrand.fish",
-    "on-click-right": "bash $HOME/.config/hypr/wall.sh"
   },
-  "custom/launcher": {
-    "format": "☣",
-    "on-click": "bash $HOME/.config/rofi/launcher.sh",
-//    "on-click": "wofi --show drun -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css",
-    "on-click-right": "bash $HOME/.config/rofi/run.sh"  
-//    "on-click-right": "wofi --show run -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css"  
-  },
+    "custom/launcher": {
+      "format": "波",
+      "on-click": "killall rofi || rofi -show drun -theme ~/.config/rofi/config.rasi",
+    },
 
   "custom/wf-recorder": {
 		"format": "{}",

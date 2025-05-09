@@ -14,7 +14,6 @@
     "custom/randwall": {
       "format": "󰏘",
       "on-click": "fish -c wallrand",
-      "on-click-middle": "fish -c rollcont",
     },
     
     "tray": {
@@ -24,10 +23,8 @@
 
     "custom/launcher": {
       "format": "波",
-      "on-click": "bash $HOME/.config/rofi/launcher.sh",
-//    "on-click": "wofi --show drun -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css",
-      "on-click-right": "bash $HOME/.config/rofi/run.sh"  
-//    "on-click-right": "wofi --show run -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css"  
+      "on-click": "killall rofi || rofi -show drun -theme ~/.config/rofi/config.rasi
+",
     },
 
     "hyprland/workspaces": {
